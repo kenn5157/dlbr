@@ -1,0 +1,45 @@
+<div class="mainPage" >
+
+  <div>
+    <h1>Create New Field</h1>
+  </div>
+  <div>
+    <input [(ngModel)]="fieldName">
+    Field Name
+  </div>
+  <div>
+    <input type="number" [(ngModel)]="fieldSize">
+    Field Size
+  </div>
+  <div>
+    <input type="number" [(ngModel)]="animalGroupId">
+    Animal Group ID
+  </div>
+  <div>
+    <input type="number" [(ngModel)]="animalCount">
+    Animal Count
+  </div>
+  <div>
+    <input type="text" [(ngModel)]="cropType">
+    Crop Type
+  </div>
+  <div>
+    <input type="text" [(ngModel)]="status">
+    Field Status
+  </div>
+  <div>
+    <input type="date" [(ngModel)]="lastChange">
+    Last Change to Field
+  </div>
+  <button (click)="createField()">Create Fields</button>
+
+  <div>
+    <div *ngFor="let p of fields">
+      {{p | json}}
+    </div>
+  </div>
+
+
+</div>
+
+

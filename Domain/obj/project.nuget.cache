@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "1BVIG4m8qCchlQamFkxPpYsztpLoL46Lv4raq5t5D5XNETz9HnZA0DULd2rvFRa3d3t/WjjdUvsuLKg4pG9GqA==",
+  "success": true,
+  "projectFilePath": "/home/wolf/dev/3rd sem/exam/DlbrApplication/Domain/Domain.csproj",
+  "expectedPackageFiles": [
+    "/home/wolf/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.13/microsoft.aspnetcore.app.ref.6.0.13.nupkg.sha512"
+  ],
+  "logs": []
+}

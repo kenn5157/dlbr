@@ -1,0 +1,15 @@
+/home/wolf/dev/3rd sem/exam/DlbrApplication/Application/bin/Debug/net6.0/Application.deps.json
+/home/wolf/dev/3rd sem/exam/DlbrApplication/Application/bin/Debug/net6.0/Application.dll
+/home/wolf/dev/3rd sem/exam/DlbrApplication/Application/bin/Debug/net6.0/Application.pdb
+/home/wolf/dev/3rd sem/exam/DlbrApplication/Application/bin/Debug/net6.0/Domain.dll
+/home/wolf/dev/3rd sem/exam/DlbrApplication/Application/bin/Debug/net6.0/Domain.pdb
+/home/wolf/dev/3rd sem/exam/DlbrApplication/Application/obj/Debug/net6.0/Application.csproj.AssemblyReference.cache
+/home/wolf/dev/3rd sem/exam/DlbrApplication/Application/obj/Debug/net6.0/Application.GeneratedMSBuildEditorConfig.editorconfig
+/home/wolf/dev/3rd sem/exam/DlbrApplication/Application/obj/Debug/net6.0/Application.AssemblyInfoInputs.cache
+/home/wolf/dev/3rd sem/exam/DlbrApplication/Application/obj/Debug/net6.0/Application.AssemblyInfo.cs
+/home/wolf/dev/3rd sem/exam/DlbrApplication/Application/obj/Debug/net6.0/Application.csproj.CoreCompileInputs.cache
+/home/wolf/dev/3rd sem/exam/DlbrApplication/Application/obj/Debug/net6.0/Application.csproj.CopyComplete
+/home/wolf/dev/3rd sem/exam/DlbrApplication/Application/obj/Debug/net6.0/Application.dll
+/home/wolf/dev/3rd sem/exam/DlbrApplication/Application/obj/Debug/net6.0/refint/Application.dll
+/home/wolf/dev/3rd sem/exam/DlbrApplication/Application/obj/Debug/net6.0/Application.pdb
+/home/wolf/dev/3rd sem/exam/DlbrApplication/Application/obj/Debug/net6.0/ref/Application.dll
