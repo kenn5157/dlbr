@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zM2LgcGRj3UszpXgn+x0cU+RBL5j0S8VXIbC/WNMIuqxB4kwHunIYeUP06X3ovMYAH26LSpMGQPmTi8RzpkSew==",
+  "dgSpecHash": "QNbOxmkpifuBFWjFOefBqe6z0C3bZjbfROI22GxuxfYfvTWStP2fRkAhoa8DS/UeFr8C3EDmgWgM12A7MoavjA==",
   "success": true,
-  "projectFilePath": "/home/wolf/dev/3rd sem/exam/DlbrApplication/Infrastructure/Infrastructure.csproj",
+  "projectFilePath": "/home/wolf/Dev/Exam/thirdSem/dlbr/Infrastructure/Infrastructure.csproj",
   "expectedPackageFiles": [
     "/home/wolf/.nuget/packages/fluentvalidation/11.5.0/fluentvalidation.11.5.0.nupkg.sha512",
     "/home/wolf/.nuget/packages/microsoft.data.sqlite.core/7.0.3/microsoft.data.sqlite.core.7.0.3.nupkg.sha512",
@@ -30,6 +30,7 @@
     "/home/wolf/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "/home/wolf/.nuget/packages/system.text.encodings.web/7.0.0/system.text.encodings.web.7.0.0.nupkg.sha512",
     "/home/wolf/.nuget/packages/system.text.json/7.0.0/system.text.json.7.0.0.nupkg.sha512",
+    "/home/wolf/.nuget/packages/microsoft.netcore.app.ref/6.0.13/microsoft.netcore.app.ref.6.0.13.nupkg.sha512",
     "/home/wolf/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.13/microsoft.aspnetcore.app.ref.6.0.13.nupkg.sha512"
   ],
   "logs": []

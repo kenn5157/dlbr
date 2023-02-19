@@ -1,4 +1,10 @@
+<app-dashboard></app-dashboard>
+
 <div class="mainPage" >
+
+  <div>
+    <h1>Welcome to {{ title.toUpperCase() }} testing!</h1>
+  </div>
 
   <div>
     <h1>Create New Field</h1>
@@ -33,11 +39,7 @@
   </div>
   <button (click)="createField()">Create Fields</button>
 
-  <div>
-    <div *ngFor="let p of fields">
-      {{p | json}}
-    </div>
-  </div>
+
 
 
 </div>

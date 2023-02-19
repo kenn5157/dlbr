@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/wolf/dev/3rd sem/exam/DlbrApplication/WebApi/WebApi.csproj": {}
+    "/home/wolf/Dev/Exam/thirdSem/dlbr/WebApi/WebApi.csproj": {}
   },
   "projects": {
-    "/home/wolf/dev/3rd sem/exam/DlbrApplication/Application/Application.csproj": {
+    "/home/wolf/Dev/Exam/thirdSem/dlbr/Application/Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/wolf/dev/3rd sem/exam/DlbrApplication/Application/Application.csproj",
+        "projectUniqueName": "/home/wolf/Dev/Exam/thirdSem/dlbr/Application/Application.csproj",
         "projectName": "Application",
-        "projectPath": "/home/wolf/dev/3rd sem/exam/DlbrApplication/Application/Application.csproj",
+        "projectPath": "/home/wolf/Dev/Exam/thirdSem/dlbr/Application/Application.csproj",
         "packagesPath": "/home/wolf/.nuget/packages/",
-        "outputPath": "/home/wolf/dev/3rd sem/exam/DlbrApplication/Application/obj/",
+        "outputPath": "/home/wolf/Dev/Exam/thirdSem/dlbr/Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/wolf/.nuget/NuGet/NuGet.Config"
@@ -26,8 +26,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/home/wolf/dev/3rd sem/exam/DlbrApplication/Domain/Domain.csproj": {
-                "projectPath": "/home/wolf/dev/3rd sem/exam/DlbrApplication/Domain/Domain.csproj"
+              "/home/wolf/Dev/Exam/thirdSem/dlbr/Domain/Domain.csproj": {
+                "projectPath": "/home/wolf/Dev/Exam/thirdSem/dlbr/Domain/Domain.csproj"
               }
             }
           }
@@ -66,6 +66,10 @@
             {
               "name": "Microsoft.AspNetCore.App.Ref",
               "version": "[6.0.13, 6.0.13]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.13, 6.0.13]"
             }
           ],
           "frameworkReferences": {
@@ -77,14 +81,14 @@
         }
       }
     },
-    "/home/wolf/dev/3rd sem/exam/DlbrApplication/Domain/Domain.csproj": {
+    "/home/wolf/Dev/Exam/thirdSem/dlbr/Domain/Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/wolf/dev/3rd sem/exam/DlbrApplication/Domain/Domain.csproj",
+        "projectUniqueName": "/home/wolf/Dev/Exam/thirdSem/dlbr/Domain/Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "/home/wolf/dev/3rd sem/exam/DlbrApplication/Domain/Domain.csproj",
+        "projectPath": "/home/wolf/Dev/Exam/thirdSem/dlbr/Domain/Domain.csproj",
         "packagesPath": "/home/wolf/.nuget/packages/",
-        "outputPath": "/home/wolf/dev/3rd sem/exam/DlbrApplication/Domain/obj/",
+        "outputPath": "/home/wolf/Dev/Exam/thirdSem/dlbr/Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/wolf/.nuget/NuGet/NuGet.Config"
@@ -125,6 +129,10 @@
             {
               "name": "Microsoft.AspNetCore.App.Ref",
               "version": "[6.0.13, 6.0.13]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.13, 6.0.13]"
             }
           ],
           "frameworkReferences": {
@@ -136,14 +144,14 @@
         }
       }
     },
-    "/home/wolf/dev/3rd sem/exam/DlbrApplication/Infrastructure/Infrastructure.csproj": {
+    "/home/wolf/Dev/Exam/thirdSem/dlbr/Infrastructure/Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/wolf/dev/3rd sem/exam/DlbrApplication/Infrastructure/Infrastructure.csproj",
+        "projectUniqueName": "/home/wolf/Dev/Exam/thirdSem/dlbr/Infrastructure/Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "/home/wolf/dev/3rd sem/exam/DlbrApplication/Infrastructure/Infrastructure.csproj",
+        "projectPath": "/home/wolf/Dev/Exam/thirdSem/dlbr/Infrastructure/Infrastructure.csproj",
         "packagesPath": "/home/wolf/.nuget/packages/",
-        "outputPath": "/home/wolf/dev/3rd sem/exam/DlbrApplication/Infrastructure/obj/",
+        "outputPath": "/home/wolf/Dev/Exam/thirdSem/dlbr/Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/wolf/.nuget/NuGet/NuGet.Config"
@@ -158,8 +166,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/home/wolf/dev/3rd sem/exam/DlbrApplication/Application/Application.csproj": {
-                "projectPath": "/home/wolf/dev/3rd sem/exam/DlbrApplication/Application/Application.csproj"
+              "/home/wolf/Dev/Exam/thirdSem/dlbr/Application/Application.csproj": {
+                "projectPath": "/home/wolf/Dev/Exam/thirdSem/dlbr/Application/Application.csproj"
               }
             }
           }
@@ -198,6 +206,10 @@
             {
               "name": "Microsoft.AspNetCore.App.Ref",
               "version": "[6.0.13, 6.0.13]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.13, 6.0.13]"
             }
           ],
           "frameworkReferences": {
@@ -209,14 +221,14 @@
         }
       }
     },
-    "/home/wolf/dev/3rd sem/exam/DlbrApplication/WebApi/WebApi.csproj": {
+    "/home/wolf/Dev/Exam/thirdSem/dlbr/WebApi/WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/wolf/dev/3rd sem/exam/DlbrApplication/WebApi/WebApi.csproj",
+        "projectUniqueName": "/home/wolf/Dev/Exam/thirdSem/dlbr/WebApi/WebApi.csproj",
         "projectName": "WebApi",
-        "projectPath": "/home/wolf/dev/3rd sem/exam/DlbrApplication/WebApi/WebApi.csproj",
+        "projectPath": "/home/wolf/Dev/Exam/thirdSem/dlbr/WebApi/WebApi.csproj",
         "packagesPath": "/home/wolf/.nuget/packages/",
-        "outputPath": "/home/wolf/dev/3rd sem/exam/DlbrApplication/WebApi/obj/",
+        "outputPath": "/home/wolf/Dev/Exam/thirdSem/dlbr/WebApi/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/wolf/.nuget/NuGet/NuGet.Config"
@@ -231,11 +243,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/home/wolf/dev/3rd sem/exam/DlbrApplication/Application/Application.csproj": {
-                "projectPath": "/home/wolf/dev/3rd sem/exam/DlbrApplication/Application/Application.csproj"
+              "/home/wolf/Dev/Exam/thirdSem/dlbr/Application/Application.csproj": {
+                "projectPath": "/home/wolf/Dev/Exam/thirdSem/dlbr/Application/Application.csproj"
               },
-              "/home/wolf/dev/3rd sem/exam/DlbrApplication/Infrastructure/Infrastructure.csproj": {
-                "projectPath": "/home/wolf/dev/3rd sem/exam/DlbrApplication/Infrastructure/Infrastructure.csproj"
+              "/home/wolf/Dev/Exam/thirdSem/dlbr/Infrastructure/Infrastructure.csproj": {
+                "projectPath": "/home/wolf/Dev/Exam/thirdSem/dlbr/Infrastructure/Infrastructure.csproj"
               }
             }
           }
@@ -273,6 +285,10 @@
             },
             {
               "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[6.0.13, 6.0.13]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
               "version": "[6.0.13, 6.0.13]"
             }
           ],

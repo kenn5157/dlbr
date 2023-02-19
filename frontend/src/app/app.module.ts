@@ -5,16 +5,20 @@ import { AppComponent } from './app.component';
 import {FormsModule} from "@angular/forms";
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatInputModule} from "@angular/material/input";
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DashboardComponent
   ],
     imports: [
         BrowserModule,
         FormsModule,
         BrowserAnimationsModule,
-        MatInputModule
+        MatInputModule,
+        AppRoutingModule
     ],
   providers: [],
   bootstrap: [AppComponent]
