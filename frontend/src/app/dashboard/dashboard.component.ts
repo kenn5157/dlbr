@@ -6,6 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./dashboard.component.scss']
 })
 export class DashboardComponent {
+title = "dlbr";
   
   doSomething() {
      console.log('Hello World!')
