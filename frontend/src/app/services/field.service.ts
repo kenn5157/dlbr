@@ -4,6 +4,7 @@ import { Observable, of } from 'rxjs';
 import { catchError, map, tap } from 'rxjs/operators';
 
 import { Field } from '../field';
+import { MessageService } from './message.service';
 
 @Injectable({
   providedIn: 'root'
@@ -12,11 +13,10 @@ export class FieldService {
 
   private fieldUrl = 'https://localhost:5001/field'
 
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient, private messageService: MessageService) { }
 
   private log(message: string) {
-    // TODO: Create mesageService
-    //this.messageService.add(`FieldService: ${message}`);
+    this.messageService.add(`FieldService: ${message}`);
   }
 
   getFields(): Observable<Field[]> {

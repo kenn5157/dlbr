@@ -9,7 +9,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { JobsComponent } from './jobs/jobs.component';
 import { FieldDetailComponent } from './field-detail/field-detail.component';
 import { FieldsComponent } from './assets/fields/fields.component';
-import {HttpClientModule} from '@angular/common/http';
+import { HttpClientModule } from '@angular/common/http';
+import { FieldsFormComponent } from './assets/fields-form/fields-form.component';
+import { MessagesComponent } from './assets/messages/messages.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import {HttpClientModule} from '@angular/common/http';
     DashboardComponent,
     JobsComponent,
     FieldDetailComponent,
-    FieldsComponent
+    FieldsComponent,
+    FieldsFormComponent,
+    MessagesComponent
   ],
     imports: [
         BrowserModule,
