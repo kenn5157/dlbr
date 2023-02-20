@@ -12,6 +12,8 @@ import { FieldsComponent } from './assets/fields/fields.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FieldsFormComponent } from './assets/fields-form/fields-form.component';
 import { MessagesComponent } from './assets/messages/messages.component';
+import { MyFieldsComponent } from './assets/fields/my-fields/my-fields.component';
+import { FormComponent } from './assets/fields/form/form.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { MessagesComponent } from './assets/messages/messages.component';
     FieldDetailComponent,
     FieldsComponent,
     FieldsFormComponent,
-    MessagesComponent
+    MessagesComponent,
+    MyFieldsComponent,
+    FormComponent
   ],
     imports: [
         BrowserModule,

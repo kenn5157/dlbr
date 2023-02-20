@@ -1,4 +1,4 @@
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable, of } from 'rxjs';
 import { catchError, map, tap } from 'rxjs/operators';
@@ -34,4 +34,15 @@ export class FieldService {
       return of(result as T);
     }
   }
+
+  httpOptions = {
+    headers: new HttpHeaders({ 'Content-type': 'application/json' })
+  };
+  
+  addField(field: Field): Observable<Field> {
+    return this.http.post<Field>(this.fieldUrl, field, this.httpOptions).pipe(
+      tap((newField: Field) => this.log(`added field w/ id=${newField.id}`)),
+      catchError(this.handleError<Field>('addField'))
+    );
+  } 
 }

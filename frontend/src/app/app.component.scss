@@ -15,15 +15,13 @@ li, a {
   text-decoration: none;
 }
 
-header {
+header, footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px 10%;
-}
-
-header {
   background-color: $colourBlue;
+
 }
 
 .logo {
