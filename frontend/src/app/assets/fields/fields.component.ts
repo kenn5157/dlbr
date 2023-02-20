@@ -11,6 +11,29 @@ import { FieldService } from 'src/app/services/field.service';
 
 export class FieldsComponent {
 
+  add(_fieldName: string,
+    _fieldSize: number,
+    _animalCount: number,
+    _cropType: string,
+    _status: string,
+    _changeDate: Date) {
+    var field: Field = {
+      id: 0,
+      fieldName: _fieldName,
+      fieldSize: _fieldSize,
+      animalCount: _animalCount,
+      cropTrype: _cropType,
+      status: _status,
+      changeDate: _changeDate
+    }
+
+    this.fieldService.addField(field)
+      .subscribe(field => {
+        this.fields.push(field);
+      });
+  }
+
+
   constructor(private fieldService: FieldService) { }
 
   fields: Field[] = [];

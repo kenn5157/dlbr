@@ -9,7 +9,7 @@ import {HttpService} from "../services/http.service";
 
 export class AppComponent implements OnInit {
 
-  title = 'frontend';
+  title = 'DLBR';
   fieldName: string = '';
   fieldSize: number = 0;
   animalGroupId: number = 0;
