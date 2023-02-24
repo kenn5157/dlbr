@@ -20,6 +20,13 @@ public class FieldController : ControllerBase
           return _fieldService.GetAllFields();
      }
 
+     [HttpGet]
+     [Route("{id}")]
+     public Field GetFieldFromId([FromRoute]int id)
+     {
+          return _fieldService.getFieldFromId(id);
+     }
+
      [HttpPost]
      public ActionResult<Field> createNewField([FromBody]Field field)
      {
@@ -28,7 +35,7 @@ public class FieldController : ControllerBase
 
      [HttpPut]
      [Route("{id}")]
-     public ActionResult<Field> UpdateProduct([FromRoute]int id, [FromBody]Field field)
+     public ActionResult<Field> UpdateProduct([FromRoute]int id,[FromBody]Field field)
      {
           try
           {
@@ -36,7 +43,7 @@ public class FieldController : ControllerBase
           }
           catch (KeyNotFoundException e)
           {
-               return NotFound("No field found at ID " + id);
+               return NotFound("No field found at ID ");
           }
           catch (Exception e)
           {

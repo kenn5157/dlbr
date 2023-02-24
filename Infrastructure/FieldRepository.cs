@@ -25,8 +25,24 @@ public class FieldRepository : IFieldRepository
         return field;
     }
 
-    public Field UpdateField(Field field)
+    public Field UpdateField(int id,Field field)
     {
-        throw new NotImplementedException("ToDo: UpdateField method");
+        // Since the ID shouldn't change, i could do this by only getitng the
+        // field and getting the id by tha field instead of sending the id seperately
+        var fieldToUpdate = _dbContext.FieldTable.FirstOrDefault(f => f.Id == id);
+
+        fieldToUpdate.Name = field.Name;
+        fieldToUpdate.Size = field.Size;
+        fieldToUpdate.Crop = field.Crop;
+        fieldToUpdate.Status = field.Status;
+
+        _dbContext.SaveChanges();
+
+        return field;
+    }
+
+    public Field GetFieldFromId(int id)
+    {
+        return _dbContext.FieldTable.FirstOrDefault(b => b.Id == id);
     }
 }

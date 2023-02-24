@@ -32,6 +32,11 @@ public class FieldService : IFieldService
 
     public Field UpdateField(int id, Field field)
     {
-        throw new NotImplementedException();
+        return _fieldRepository.UpdateField(id, field);
+    }
+
+    public Field getFieldFromId(int id)
+    {
+        return _fieldRepository.GetFieldFromId(id);
     }
 }
