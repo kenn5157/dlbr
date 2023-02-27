@@ -8,7 +8,7 @@ namespace WebApi.Controllers;
 [Route("[controller]")]
 public class FieldController : ControllerBase
 {
-     private IFieldService _fieldService;
+     private readonly IFieldService _fieldService;
      public FieldController(IFieldService service)
      {
           _fieldService = service;
