@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "QNbOxmkpifuBFWjFOefBqe6z0C3bZjbfROI22GxuxfYfvTWStP2fRkAhoa8DS/UeFr8C3EDmgWgM12A7MoavjA==",
+  "dgSpecHash": "JNxAYsIUj4no8g5bnlymz/wX8PLzYlkmri4w9ZpN1RHdsyIlPNMzkVtuNbjvN6VqI6+VxV5ZnIVjyAd2Ezow+g==",
   "success": true,
   "projectFilePath": "/home/wolf/Dev/Exam/thirdSem/dlbr/Infrastructure/Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -30,8 +30,7 @@
     "/home/wolf/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "/home/wolf/.nuget/packages/system.text.encodings.web/7.0.0/system.text.encodings.web.7.0.0.nupkg.sha512",
     "/home/wolf/.nuget/packages/system.text.json/7.0.0/system.text.json.7.0.0.nupkg.sha512",
-    "/home/wolf/.nuget/packages/microsoft.netcore.app.ref/6.0.13/microsoft.netcore.app.ref.6.0.13.nupkg.sha512",
-    "/home/wolf/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.13/microsoft.aspnetcore.app.ref.6.0.13.nupkg.sha512"
+    "/home/wolf/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.14/microsoft.aspnetcore.app.ref.6.0.14.nupkg.sha512"
   ],
   "logs": []
 }

@@ -1,14 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "aSAOUxjpjOZwlMiGV7eWTWk1Ilw8rSDFejwXquzBK36XRrA7roTSkhhpZTrvEQE8CgCGCbp7Ddj+eUxzUaRyqA==",
+  "dgSpecHash": "pqnZGTjZ3zvTWwA0eVMOE8oG7gOiIrunSttZukgn3dILlAhzPs+q5P7SMJ3rcT11KFdpdVO/HRcfYUQA4Xdh4w==",
   "success": true,
   "projectFilePath": "/home/wolf/Dev/Exam/thirdSem/dlbr/Application/Application.csproj",
   "expectedPackageFiles": [
     "/home/wolf/.nuget/packages/fluentvalidation/11.5.0/fluentvalidation.11.5.0.nupkg.sha512",
     "/home/wolf/.nuget/packages/microsoft.extensions.dependencyinjection/7.0.0/microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
     "/home/wolf/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
-    "/home/wolf/.nuget/packages/microsoft.netcore.app.ref/6.0.13/microsoft.netcore.app.ref.6.0.13.nupkg.sha512",
-    "/home/wolf/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.13/microsoft.aspnetcore.app.ref.6.0.13.nupkg.sha512"
+    "/home/wolf/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.14/microsoft.aspnetcore.app.ref.6.0.14.nupkg.sha512"
   ],
   "logs": []
 }

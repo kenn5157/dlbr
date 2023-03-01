@@ -84,4 +84,31 @@ public class JobsServiceTest
         Assert.Equal(jobs[2].Id, result[1].Id);
         Assert.Equal(jobs.Count - 1, result.Count);
     }
+
+    [Fact]
+    public void EditJob()
+    {
+        // Given
+        var job = new Job{
+            Id = 1,
+            Name = "New Job Name"
+        };
+        var newJob = new Job{
+            Id = 1,
+            Name = "New Job Name"
+        };
+
+        // When
+        _mockRepository.Setup(repo => repo.Editjob(newJob)).Returns(() => {
+            if (job.Id != newJob.Id){
+                return null;
+            }
+            job.name = newJob.Name;
+            return job;
+        });
+    
+        // Then
+        Action test = () => JobService.EditJob(newJob);
+        test.
+    }
 }
