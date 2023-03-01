@@ -6,6 +6,6 @@ public interface IJobService
 {
     public Job GetJobFromId(int jobId);
     public List<Job> GetAllJobs();
-    Job UpdateJobAtId(Job updatedJob);
+    public Job EditJob(Job updatedJob);
     List<Job> RemoveJob(Job job);
 }

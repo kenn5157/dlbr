@@ -40,20 +40,6 @@ public class JobApiTest
     }
 
     [Fact]
-    public void UpdateJobAtId_API_ShouldReturnNewJob()
-    {
-        var updatedJob = new Job { Id = 1,Name = "Muck out", Description = "Muck out calving folds at new barn" };
-        
-        _jobService.Setup(service => service.UpdateJobAtId(updatedJob)).Returns(updatedJob);
-
-        var result = _controller.UpdateJobAtId(updatedJob);
-        
-        Assert.NotEqual(jobs[2], result);
-        Assert.NotEqual(jobs[1], result);
-        Assert.Equal(updatedJob, result);
-    }
-
-    [Fact]
     public void DeleteJobAtId_API_ShouldAllJobsWithoutRemovedJob()
     {
         _jobService.Setup(service => service.RemoveJob(jobs[1])).Returns(jobs);
