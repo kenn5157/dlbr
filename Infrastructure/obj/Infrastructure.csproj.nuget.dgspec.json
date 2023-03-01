@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/wolf/Dev/Exam/thirdSem/dlbr/Infrastructure/Infrastructure.csproj": {}
+    "/home/wolf/dev/sem3/dlbr/Infrastructure/Infrastructure.csproj": {}
   },
   "projects": {
-    "/home/wolf/Dev/Exam/thirdSem/dlbr/Application/Application.csproj": {
+    "/home/wolf/dev/sem3/dlbr/Application/Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/wolf/Dev/Exam/thirdSem/dlbr/Application/Application.csproj",
+        "projectUniqueName": "/home/wolf/dev/sem3/dlbr/Application/Application.csproj",
         "projectName": "Application",
-        "projectPath": "/home/wolf/Dev/Exam/thirdSem/dlbr/Application/Application.csproj",
+        "projectPath": "/home/wolf/dev/sem3/dlbr/Application/Application.csproj",
         "packagesPath": "/home/wolf/.nuget/packages/",
-        "outputPath": "/home/wolf/Dev/Exam/thirdSem/dlbr/Application/obj/",
+        "outputPath": "/home/wolf/dev/sem3/dlbr/Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/wolf/.nuget/NuGet/NuGet.Config"
@@ -26,8 +26,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/home/wolf/Dev/Exam/thirdSem/dlbr/Domain/Domain.csproj": {
-                "projectPath": "/home/wolf/Dev/Exam/thirdSem/dlbr/Domain/Domain.csproj"
+              "/home/wolf/dev/sem3/dlbr/Domain/Domain.csproj": {
+                "projectPath": "/home/wolf/dev/sem3/dlbr/Domain/Domain.csproj"
               }
             }
           }
@@ -77,14 +77,14 @@
         }
       }
     },
-    "/home/wolf/Dev/Exam/thirdSem/dlbr/Domain/Domain.csproj": {
+    "/home/wolf/dev/sem3/dlbr/Domain/Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/wolf/Dev/Exam/thirdSem/dlbr/Domain/Domain.csproj",
+        "projectUniqueName": "/home/wolf/dev/sem3/dlbr/Domain/Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "/home/wolf/Dev/Exam/thirdSem/dlbr/Domain/Domain.csproj",
+        "projectPath": "/home/wolf/dev/sem3/dlbr/Domain/Domain.csproj",
         "packagesPath": "/home/wolf/.nuget/packages/",
-        "outputPath": "/home/wolf/Dev/Exam/thirdSem/dlbr/Domain/obj/",
+        "outputPath": "/home/wolf/dev/sem3/dlbr/Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/wolf/.nuget/NuGet/NuGet.Config"
@@ -136,14 +136,14 @@
         }
       }
     },
-    "/home/wolf/Dev/Exam/thirdSem/dlbr/Infrastructure/Infrastructure.csproj": {
+    "/home/wolf/dev/sem3/dlbr/Infrastructure/Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/wolf/Dev/Exam/thirdSem/dlbr/Infrastructure/Infrastructure.csproj",
+        "projectUniqueName": "/home/wolf/dev/sem3/dlbr/Infrastructure/Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "/home/wolf/Dev/Exam/thirdSem/dlbr/Infrastructure/Infrastructure.csproj",
+        "projectPath": "/home/wolf/dev/sem3/dlbr/Infrastructure/Infrastructure.csproj",
         "packagesPath": "/home/wolf/.nuget/packages/",
-        "outputPath": "/home/wolf/Dev/Exam/thirdSem/dlbr/Infrastructure/obj/",
+        "outputPath": "/home/wolf/dev/sem3/dlbr/Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/wolf/.nuget/NuGet/NuGet.Config"
@@ -158,8 +158,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/home/wolf/Dev/Exam/thirdSem/dlbr/Application/Application.csproj": {
-                "projectPath": "/home/wolf/Dev/Exam/thirdSem/dlbr/Application/Application.csproj"
+              "/home/wolf/dev/sem3/dlbr/Application/Application.csproj": {
+                "projectPath": "/home/wolf/dev/sem3/dlbr/Application/Application.csproj"
               }
             }
           }

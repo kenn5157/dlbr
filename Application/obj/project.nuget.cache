@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pqnZGTjZ3zvTWwA0eVMOE8oG7gOiIrunSttZukgn3dILlAhzPs+q5P7SMJ3rcT11KFdpdVO/HRcfYUQA4Xdh4w==",
+  "dgSpecHash": "3kYT8RZRQBM36SFiqSG3YeeGwJS12LhfOgEg8SvnhdllCSQ+HOJx49r6VOz7aluCUcHLKU7GAX6lQVv/oqc+8g==",
   "success": true,
-  "projectFilePath": "/home/wolf/Dev/Exam/thirdSem/dlbr/Application/Application.csproj",
+  "projectFilePath": "/home/wolf/dev/sem3/dlbr/Application/Application.csproj",
   "expectedPackageFiles": [
     "/home/wolf/.nuget/packages/fluentvalidation/11.5.0/fluentvalidation.11.5.0.nupkg.sha512",
     "/home/wolf/.nuget/packages/microsoft.extensions.dependencyinjection/7.0.0/microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",

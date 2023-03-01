@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/wolf/Dev/Exam/thirdSem/dlbr/Domain/Domain.csproj": {}
+    "/home/wolf/dev/sem3/dlbr/Domain/Domain.csproj": {}
   },
   "projects": {
-    "/home/wolf/Dev/Exam/thirdSem/dlbr/Domain/Domain.csproj": {
+    "/home/wolf/dev/sem3/dlbr/Domain/Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/wolf/Dev/Exam/thirdSem/dlbr/Domain/Domain.csproj",
+        "projectUniqueName": "/home/wolf/dev/sem3/dlbr/Domain/Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "/home/wolf/Dev/Exam/thirdSem/dlbr/Domain/Domain.csproj",
+        "projectPath": "/home/wolf/dev/sem3/dlbr/Domain/Domain.csproj",
         "packagesPath": "/home/wolf/.nuget/packages/",
-        "outputPath": "/home/wolf/Dev/Exam/thirdSem/dlbr/Domain/obj/",
+        "outputPath": "/home/wolf/dev/sem3/dlbr/Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/wolf/.nuget/NuGet/NuGet.Config"
