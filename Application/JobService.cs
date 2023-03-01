@@ -6,12 +6,12 @@ namespace Application;
 public class JobService : IJobService
 
 {
-    
+
     private readonly IJobRepository _jobRepository;
-    
+
     public JobService(IJobRepository repository)
     {
-        _jobRepository = repository ?? 
+        _jobRepository = repository ??
                            throw new NullReferenceException("FieldRepository is null");
     }
 
@@ -27,11 +27,48 @@ public class JobService : IJobService
 
     public Job UpdateJobAtId(Job updatedJob)
     {
-        return _jobRepository.UpdateAtJobId(updatedJob);
+        if (updatedJob.Id <= 0)
+        {
+            throw new ArgumentException();
+        }
+        if (string.IsNullOrEmpty(updatedJob.Name))
+        {
+            throw new ArgumentException();
+        }
+        try
+        {
+            return _jobRepository.UpdateAtJobId(updatedJob);
+        }
+        catch (System.Exception)
+        {
+            throw new NullReferenceException();
+        }
+
     }
 
     public List<Job> RemoveJob(Job job)
     {
         return _jobRepository.RemoveJob(job);
+    }
+
+    public Job EditJob(Job updatedJob)
+    {
+        if (string.IsNullOrEmpty(updatedJob.Name))
+        {
+            throw new ArgumentException();
+        }
+        if (updatedJob.Id <= 0)
+        {
+            throw new ArgumentException();
+        }
+        try
+        {
+            var udatedJob = _jobRepository.Editjob(updatedJob);
+            return updatedJob;
+        }
+        catch (System.Exception)
+        {
+            throw new NullReferenceException();
+        }
     }
 }

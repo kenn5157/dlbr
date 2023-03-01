@@ -8,4 +8,5 @@ public interface IJobRepository
     public List<Job> GetAllJobs();
     Job UpdateAtJobId(Job updatedJob);
     List<Job> RemoveJob(Job job);
+    Job Editjob(Job updatedJob);
 }

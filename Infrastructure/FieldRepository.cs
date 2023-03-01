@@ -25,17 +25,18 @@ public class FieldRepository : IFieldRepository
         return field;
     }
 
-    public Field UpdateField(int id,Field field)
+    public Field UpdateField(int id, Field field)
     {
         // Since the ID shouldn't change, i could do this by only getitng the
         // field and getting the id by tha field instead of sending the id seperately
-        var fieldToUpdate = _dbContext.FieldTable.FirstOrDefault(f => f.Id == id);
+        //var fieldToUpdate = _dbContext.FieldTable.FirstOrDefault(f => f.Id == id);
+        //
+        //fieldToUpdate.Name = field.Name;
+        //fieldToUpdate.Size = field.Size;
+        //fieldToUpdate.Crop = field.Crop;
+        //fieldToUpdate.Status = field.Status;
 
-        fieldToUpdate.Name = field.Name;
-        fieldToUpdate.Size = field.Size;
-        fieldToUpdate.Crop = field.Crop;
-        fieldToUpdate.Status = field.Status;
-
+        _dbContext.Update(field);
         _dbContext.SaveChanges();
 
         return field;

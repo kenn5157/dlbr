@@ -38,4 +38,20 @@ public class JobRepository : IJobRepository
         
         return _dbContext.JobTable.ToList();
     }
+
+    public Job Editjob(Job updatedJob)
+    {
+        try
+        {
+            _dbContext.JobTable.Update(updatedJob);
+            _dbContext.SaveChanges();
+
+            return updatedJob;
+        }
+        catch (System.Exception)
+        {
+            
+            throw new NullReferenceException();
+        }
+    }
 }

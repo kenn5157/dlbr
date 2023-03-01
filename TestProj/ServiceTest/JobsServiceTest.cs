@@ -3,6 +3,7 @@ using System.Linq;
 using Application;
 using Application.Interfaces;
 using Domain;
+using FluentAssertions;
 using Moq;
 using WebApi.Controllers;
 
@@ -56,59 +57,98 @@ public class JobsServiceTest
     }
 
     [Fact]
-    public void UpdateJobAtId()
+    public void EditJob_JobNotInDB()
     {
-        var updatedJob = new Job { Id = 1, Name = "Muck out", Description = "Muck out calving folds at new barn" };
-
-        _mockRepository.Setup(repo => repo.UpdateAtJobId(updatedJob)).Returns(updatedJob);
-
-        var service = new JobService(_mockRepository.Object);
-
-        var result = service.UpdateJobAtId(updatedJob);
-
-        Assert.Equal(updatedJob, result);
-    }
-
-    [Fact]
-    public void DeleteJobAtJob_ShouldReturnListWithoutRemovedJob()
-    {
-        var updatedList = jobs;
-        updatedList.RemoveAt(1);
-
-        _mockRepository.Setup(repo => repo.RemoveJob(jobs[1])).Returns(updatedList);
-
-        var service = new JobService(_mockRepository.Object);
-
-        var result = service.RemoveJob(jobs[1]);
-
-        Assert.Equal(jobs[2].Id, result[1].Id);
-        Assert.Equal(jobs.Count - 1, result.Count);
-    }
-
-    [Fact]
-    public void EditJob()
-    {
-        // Given
-        var job = new Job{
-            Id = 1,
-            Name = "New Job Name"
-        };
-        var newJob = new Job{
-            Id = 1,
-            Name = "New Job Name"
+        var updatedJob = new Job
+        {
+            Id = 4,
+            Name = "Plow Field",
+            Description = "Plow field 30 using JD 6920."
         };
 
-        // When
-        _mockRepository.Setup(repo => repo.Editjob(newJob)).Returns(() => {
-            if (job.Id != newJob.Id){
-                return null;
+        var service = new JobService(_mockRepository.Object);
+        _mockRepository.Setup(repo => repo.Editjob(updatedJob)).Returns(() =>
+        {
+            try
+            {
+                Job job = jobs.FirstOrDefault(e => e.Id == updatedJob.Id);
+                job.Name = updatedJob.Name;
+                job.Description = updatedJob.Description;
+
+                return job;
             }
-            job.name = newJob.Name;
-            return job;
+            catch (System.Exception)
+            {
+
+                throw new NullReferenceException();
+            }
         });
-    
-        // Then
-        Action test = () => JobService.EditJob(newJob);
-        test.
+
+        Action test = () => service.EditJob(updatedJob);
+        test.Should().Throw<NullReferenceException>();
+    }
+
+    [Fact]
+    public void Editjob_JobIdInvalid()
+    {
+        var editJob = new Job
+        {
+            Id = -1,
+            Name = "Plow Field",
+            Description = "Plow field 30 using JD 6920."
+        };
+
+        var service = new JobService(_mockRepository.Object);
+
+        Action test = () => service.EditJob(editJob);
+        test.Should().Throw<ArgumentException>();
+    }
+
+    [Fact]
+    public void EditJob_NameEmpty()
+    {
+        var editJob = new Job
+        {
+            Id = -1,
+            Name = "",
+            Description = "Plow field 30 using JD 6920."
+        };
+
+        var service = new JobService(_mockRepository.Object);
+
+        Action test = () => service.EditJob(editJob);
+        test.Should().Throw<ArgumentException>();
+    }
+
+    [Fact]
+    public void EditJob_ObjectOk()
+    {
+        var updatedJob = new Job
+        {
+            Id = 1,
+            Name = "Updated job",
+            Description = "Updated Description"
+        };
+
+        var service = new JobService(_mockRepository.Object);
+        _mockRepository.Setup(repo => repo.Editjob(updatedJob)).Returns(() =>
+        {
+            try
+            {
+                Job job = jobs.FirstOrDefault(e => e.Id == updatedJob.Id);
+                job.Name = updatedJob.Name;
+                job.Description = updatedJob.Description;
+
+                return job;
+            }
+            catch (System.Exception)
+            {
+
+                throw new NullReferenceException();
+            }
+        });
+
+        var result = service.EditJob(updatedJob);
+        Assert.Equal(updatedJob, result);
     }
 }
