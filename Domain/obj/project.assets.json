@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/wolf/Dev/Exam/thirdSem/dlbr/Domain/Domain.csproj",
+      "projectUniqueName": "/home/wolf/dev/3rd sem/exam/dlbr/Domain/Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "/home/wolf/Dev/Exam/thirdSem/dlbr/Domain/Domain.csproj",
+      "projectPath": "/home/wolf/dev/3rd sem/exam/dlbr/Domain/Domain.csproj",
       "packagesPath": "/home/wolf/.nuget/packages/",
-      "outputPath": "/home/wolf/Dev/Exam/thirdSem/dlbr/Domain/obj/",
+      "outputPath": "/home/wolf/dev/3rd sem/exam/dlbr/Domain/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/wolf/.nuget/NuGet/NuGet.Config"

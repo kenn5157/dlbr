@@ -23,7 +23,7 @@ public class JobController : ControllerBase
     [HttpPut]
     public Job UpdateJobAtId([FromBody]Job updatedJob)
     {
-        return _jobService.UpdateJobAtId(updatedJob);
+        return _jobService.EditJob(updatedJob);
     }
 
     [HttpDelete]

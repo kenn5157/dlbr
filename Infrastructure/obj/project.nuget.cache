@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JNxAYsIUj4no8g5bnlymz/wX8PLzYlkmri4w9ZpN1RHdsyIlPNMzkVtuNbjvN6VqI6+VxV5ZnIVjyAd2Ezow+g==",
+  "dgSpecHash": "WC0bMUeTM/bXHyl6WRsbq1S8Nm3uP9tZRZui3Bri0EzxkSoLGH3p025akmHjZ80EG/PIS9MgO6eIDgR2f3oPZQ==",
   "success": true,
-  "projectFilePath": "/home/wolf/Dev/Exam/thirdSem/dlbr/Infrastructure/Infrastructure.csproj",
+  "projectFilePath": "/home/wolf/dev/3rd sem/exam/dlbr/Infrastructure/Infrastructure.csproj",
   "expectedPackageFiles": [
     "/home/wolf/.nuget/packages/fluentvalidation/11.5.0/fluentvalidation.11.5.0.nupkg.sha512",
     "/home/wolf/.nuget/packages/microsoft.data.sqlite.core/7.0.3/microsoft.data.sqlite.core.7.0.3.nupkg.sha512",

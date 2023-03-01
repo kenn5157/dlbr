@@ -8,4 +8,5 @@ public interface IJobService
     public List<Job> GetAllJobs();
     Job UpdateJobAtId(Job updatedJob);
     List<Job> RemoveJob(Job job);
+    public Job EditJob(Job updatedJob);
 }
